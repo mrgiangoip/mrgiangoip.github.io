@@ -1,0 +1,151 @@
+.container{
+	width: 100%;
+	background-image: url("IMG/bg.jpg")
+
+}
+.header{
+	width: 100%;
+	display: inline-block;
+}
+.left-header{
+	width: 40%;
+	float: left;
+}
+.right-header{
+	width: 60%;
+	display: inline-block;
+}
+#info-header{
+	font-size: 40px;
+	padding-left: 40px;
+}
+.info-header{
+	float: left;
+	padding-left: 10px;
+	font-size: 20px;
+}
+.right-header a:hover{
+	color: white;
+}
+.right-header li{
+	list-style: none;
+	display: inline-block;
+	padding-left: 60px;
+	padding-top: 48px;
+}
+.right-header a{
+	text-decoration: none;
+	color: gray;
+}
+#Sign{
+	padding: 8px;
+	border-radius: 25px;
+} 
+
+.content{
+	width: 100%;
+	display: inline-block;
+}
+.left-menu{
+	width: 20%;
+	float: left;
+}
+.left-menu li{
+	list-style: none;
+	padding-top: 14px;
+}
+.left-menu a{
+	text-decoration: none;
+	color: gray;
+}
+
+.left-menu a:hover{
+	color: #303030;
+}
+.main-info{
+	width: 80%;
+	display: inline-block;
+}
+
+.box {
+	float: left;
+	width: 25%;
+	position: relative;
+	z-index: 1;
+	margin-left: 10px;
+	margin-top: 20px;
+	border-radius: 25px;
+}
+.header-info{
+	width: 100%;
+	height: 30%;
+	background: #efe7e7;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+}
+.info{
+	width: 100%;
+	height: 70%;
+}
+.IMG{
+	width: 100%;
+	height: 100%;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+
+.footer-info{
+	position: absolute;
+	bottom: 4px;
+	z-index: 2;
+	width: 100%;
+	color: #fff;
+	background: rgba(17,24,31,0.6);
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+
+.full-info{
+	position: absolute;
+	bottom: 4px;
+	z-index: 2;
+	width: 268px;
+	height: 350px;
+	color: #fff;
+	background: rgba(17,24,31,0.6);
+	border-radius: 5px;
+}
+
+.footer li{
+	list-style: none;
+	display: inline-block;
+	padding-left: 15px;
+}
+
+.header-info p{
+	padding-left: 16px;
+	padding-top: 20px;
+	font-size: 18px;
+}
+.full-info{
+	display: none;
+	height: 100%;
+	border-radius: 25px 25px 25px 25px;
+}
+.box:hover .full-info{
+	display: block;
+}
+img{
+	width: 265px;
+	height: 350px;
+	border-radius: 0 0 25px 25px;
+}
+*{
+	box-sizing: border-box;
+}
+
+
+.footer{
+	width: 100%;
+	display: inline-block;
+}
