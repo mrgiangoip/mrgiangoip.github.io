@@ -47,6 +47,7 @@
 	display: inline-block;
 }
 .left-menu{
+	position: absolute;
 	width: 20%;
 	float: left;
 }
@@ -71,6 +72,8 @@ a:hover{
 .main-info{
 	width: 80%;
 	display: inline-block;
+	margin-left: 20%;
+	position: relative;
 }
 
 .box {
@@ -155,4 +158,9 @@ img{
 .footer{
 	width: 100%;
 	display: inline-block;
+}
+.back{
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
 }
