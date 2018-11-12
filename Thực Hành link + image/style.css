@@ -97,11 +97,23 @@ a:hover{
 	width: 100%;
 	height: 70%;
 }
-.IMG{
+#IMG{
 	width: 100%;
-	height: 100%;
+	height: 315px;
 	border-bottom-right-radius: 25px;
 	border-bottom-left-radius: 25px;
+}
+#IMG img{
+	opacity: 1;
+	transition: all 0.5s linear;
+}
+#IMG:hover img{
+	opacity: 0.6;
+}
+#IMG:hover{
+	transform: translate(0,-5px);
+	box-shadow: 0px 5px 5px 0px rgba(0, 0 ,0 ,0.2);
+	transform: scale(1.1);
 }
 
 .footer-info{
@@ -163,4 +175,36 @@ img{
 	position: fixed;
 	bottom: 30px;
 	right: 30px;
+}
+.animation {
+    text-align: center;
+    width: 100px;
+    position: relative;
+    animation: myAnimation 5s ease-out infinite;
+    -moz-animation: myAnimation 5s ease-out infinite;
+    -webkit-animation: myAnimation 5s ease-out infinite;
+    -o-animation: myAnimation 5s ease-out infinite;
+}
+
+@keyframes myAnimation {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+/* Hien thi cho Firefox */
+@-moz-keyframes myAnimation {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+/* Hien thi cho Safari and Chrome */
+@-webkit-keyframes myAnimation {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+/* Hien thi cho Opera */
+@-o-keyframes myAnimation {
+    from {left: 0px;}
+    to {left: 200px;}
 }
