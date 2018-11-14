@@ -106,14 +106,17 @@ a:hover{
 #IMG img{
 	opacity: 1;
 	transition: all 0.5s linear;
+	width: 100%;
+	height: 100%;
+	border-radius: 0 0 25px 25px;
 }
 #IMG:hover img{
 	opacity: 0.6;
 }
 #IMG:hover{
 	transform: translate(0,-5px);
-	box-shadow: 0px 5px 5px 0px rgba(0, 0 ,0 ,0.2);
-	transform: scale(1.1);
+	box-shadow: 0px 5px 5px 0px rgba(0, 0 ,0 ,0.9);
+	transform: scale(0.9);
 }
 
 .footer-info{
@@ -156,11 +159,6 @@ a:hover{
 }
 .box:hover .full-info{
 	display: block;
-}
-img{
-	width: 300px;
-	height: 300px;
-	border-radius: 0 0 25px 25px;
 }
 *{
 	box-sizing: border-box;
