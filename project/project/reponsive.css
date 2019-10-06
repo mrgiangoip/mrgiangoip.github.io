@@ -1,0 +1,6 @@
+@import url(desktop.css) only screen and (min-width: 992px);
+@import url(tabletpro.css) only screen and (min-width: 769px) and (max-width: 992px);
+@import url(tablet2.css) only screen and (min-width: 576px) and (max-width: 769px);
+@import url(mobile2.css) only screen and (max-width: 576px);
+@import url(tablet.css) only screen and (min-device-width: 576px) and (max-device-width: 769px);
+@import url(mobile.css) only screen and (max-device-width: 576px);

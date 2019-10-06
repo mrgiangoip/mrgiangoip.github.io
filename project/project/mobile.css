@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+}
+body{
+	width: 100%;
+	margin: auto;
+}
+nav{
+	width: 0px;
+	height: 0px;
+	display: none;
+}
+.menumb{
+	display: block;
+}
+#v-pills-home{
+	width: 0px;
+	height: 0px;
+}
+.pos-f-t{
+	display: block;
+}
+.destroy{
+	padding-left: 900px;
+}
+.destroys{	
+   padding-bottom: 20px;
+}
+.navbar-toggler{
+	margin-top: 10px;
+}
+.submits{
+	width: 100%;
+	height: 600px;
+}
+.submits>button{
+	padding-left: 30px;
+}
+.manun{
+	display: none;
+}
+.image{
+	width: 80px;
+	padding-top: 15px;
+	margin-right: 20%;
+}
+.nav-link{
+	padding-right: 30%;
+	padding-top: 20px; 
+}
+.carousel-indicators li{
+	width: 10px;
+    height: 10px;
+    background-color: rgba(54,54,54);
+    top: 50px;
+}
+.carousel-indicators .active {
+    background-color: #ff3300;
+}
+.fadeInDown{
+	padding-left: 5%;
+}
+.zoomInDown{
+	padding-left: 5%;
+}
+.fa-cogs, .fa-leaf, .fa-laptop, .fa-heart, .fa-rocket, .fa-camera{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background-color: red;
+	color: white;
+	margin-left: 50px;
+}
+.fa-cogs:before{
+	left: 20px;
+}
+.fa, .fab, .fal, .far, .fas {
+    padding-top: 18px;
+    padding-left: 16px;
+}
+.visions{
+	background-color: #F9F9F9;
+	height: 1100px;
+}
+.solution{
+	width: 48%;
+	height: 300px;
+	border: 1px solid;
+	margin-left: 43%;
+	border: none;
+}
+.creative{
+	margin-left: 1px;
+	margin-top: 80px;
+}
+.featuress, .features{
+	width: 80%;
+	margin-left: 85px;
+}
+.features{
+	font-size: 30px;
+}
+.imagess{
+	margin-left: 180px;
+	width: 60%;
+}
+.solutions>.fa-heart, .fa-rocket, .fa-camera{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background-color: red;
+	color: white;
+	margin-left: 1px;
+}
+.solutions{
+	width: 60%;
+	height: 180px;
+	border: 1px solid;
+	margin-left: 200px;
+	border: none;
+	float: left;
+}
+.creatives{
+	padding-right: 220px;
+	float: right;
+}
+.creativess{
+	padding-left: 60px;
+	float: right;
+}
+.NTS{
+	margin-top: 300px;
+	background-color: #ff3300;
+	height: 280px;
+}
+.doe{
+	background-color: #F9F9F9;
+	height: 1650px;
+}
+.solutionss{
+	width: 80%;
+	height: 340px;
+	border: 1px solid;
+	margin-left: 120px;
+	border: none;
+	
+}
+.creat{
+	padding-top: 10px;
+	padding-left: 44%;
+	font-size: 20px;
+	font-weight: bold;
+}
+.creats{
+	font-size: 15px;
+	padding-left: 16%;
+}
+.join{
+	margin-left: 40%;
+	padding-bottom: 30px;
+	border-radius: 40px;
+}
+.contacts{
+	background-color: #292929;
+	color: white;
+	height: 900px;
+}
+.Multi{
+	width: 100%;
+	padding-top: 60px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+.tlh{
+	font-size: 18px;
+}
+.dlh{
+	padding-top: 20px;
+}
+.dpvd{
+	padding-top: 22px;
+}
+.hvtt{
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.fa-facebook-f, .fa-twitter, .fa-linkedin-in, .fa-tencent-weibo, .fa-google-plus-g{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background-color: black;
+	color: white;
+	margin-left: 1px;
+	margin-top: 10px;
+}
+.Multi>i{
+	padding-left: 20px;
+}
+.manu{
+	height: 60px;
+	background-color: black;
+	color: white;
+}
+.images{
+	padding-top: 20px;
+	margin-right: 140px;
+}
+.manu>.nav-item>.nav-link{
+	padding-right: 40px;
+	padding-top: 20px; 
+}
