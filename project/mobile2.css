@@ -10,7 +10,7 @@ nav{
 	height: 0px;
 	display: none;
 }
-.time{
+.below_body{
 	display: none;
 }
 .menumb{
@@ -62,11 +62,11 @@ nav{
 }
 .fadeInDown{
 	text-align: center;
-	font-size: 10px;
+	font-size: 15px;
 }
 .zoomInDown{
 	text-align: center;
-	font-size: 10px;
+	font-size: 15px;
 }
 .fa-cogs, .fa-leaf, .fa-laptop, .fa-heart, .fa-rocket, .fa-camera{
 	width: 50px;
