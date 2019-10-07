@@ -67,6 +67,7 @@ nav{
 }
 .zoomInDown{
 	text-align: center;
+	font-size: 12px;
 }
 .fa-cogs, .fa-leaf, .fa-laptop, .fa-heart, .fa-rocket, .fa-camera{
 	width: 50px;
