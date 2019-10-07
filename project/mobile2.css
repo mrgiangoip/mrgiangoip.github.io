@@ -59,9 +59,11 @@ nav{
 }
 .fadeInDown{
 	text-align: center;
+	font-size: 10px;
 }
 .zoomInDown{
 	text-align: center;
+	font-size: 10px;
 }
 .fa-cogs, .fa-leaf, .fa-laptop, .fa-heart, .fa-rocket, .fa-camera{
 	width: 50px;
