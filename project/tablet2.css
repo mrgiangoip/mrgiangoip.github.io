@@ -10,6 +10,9 @@ nav{
 	height: 0px;
 	display: none;
 }
+.below_body{
+	display: none;
+}
 .menumb{
 	display: block;
 }
@@ -59,9 +62,11 @@ nav{
 }
 .fadeInDown{
 	text-align: center;
+	font-size: 18px;
 }
 .zoomInDown{
 	text-align: center;
+	font-size: 18px;
 }
 .fa-cogs, .fa-leaf, .fa-laptop, .fa-heart, .fa-rocket, .fa-camera{
 	width: 50px;
@@ -213,11 +218,12 @@ nav{
 	margin-top: 6px;
 	text-align: center;
 	color: #f1004c;
+	font-size: 16px;
 }
 .price{
 	margin-top: 3px;
 	text-align: center;
-	font-size: 12px;
+	font-size: 16px;
 	color: #999999;
 }
 #products ul li{

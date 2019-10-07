@@ -2,12 +2,15 @@
     box-sizing: border-box;
 }
 body{
-	width: 100%;
+	width: 90%;
 	margin: auto;
 }
 nav{
 	width: 0px;
 	height: 0px;
+	display: none;
+}
+.below_body{
 	display: none;
 }
 .menumb{
@@ -58,10 +61,12 @@ nav{
     background-color: #ff3300;
 }
 .fadeInDown{
-	padding-left: 5%;
+	text-align: center;
+	font-size: 18px;
 }
 .zoomInDown{
-	padding-left: 5%;
+	text-align: center;
+	font-size: 18px;
 }
 .fa-cogs, .fa-leaf, .fa-laptop, .fa-heart, .fa-rocket, .fa-camera{
 	width: 50px;
@@ -80,7 +85,7 @@ nav{
 }
 .visions{
 	background-color: #F9F9F9;
-	height: 1100px;
+	height: auto;
 }
 .solution{
 	width: 48%;
@@ -163,7 +168,7 @@ nav{
 .contacts{
 	background-color: #292929;
 	color: white;
-	height: 900px;
+	height: auto;
 }
 .Multi{
 	width: 100%;
@@ -208,4 +213,19 @@ nav{
 .manu>.nav-item>.nav-link{
 	padding-right: 40px;
 	padding-top: 20px; 
+}
+.title{
+	margin-top: 6px;
+	text-align: center;
+	color: #f1004c;
+	font-size: 16px;
+}
+.price{
+	margin-top: 3px;
+	text-align: center;
+	font-size: 16px;
+	color: #999999;
+}
+#products ul li{
+	list-style-type: none;
 }
