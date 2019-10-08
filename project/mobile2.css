@@ -229,3 +229,10 @@ nav{
 #products ul li{
 	list-style-type: none;
 }
+.imgc{
+	width: 50%;
+	height: 50%;
+	margin-left: 25%;
+	margin-bottom: 5%;
+	border: 1px solid black;
+}

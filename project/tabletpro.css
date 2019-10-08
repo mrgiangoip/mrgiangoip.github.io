@@ -2,34 +2,38 @@
     box-sizing: border-box;
 }
 body{
-	width: 900px;
+	width: 90%;
 	margin: auto;
 }
 nav{
-	width: 900px;
+	width: 98%;
 	height: 60px;
-}
-.destroys{
-	display: none;
-	width: 0px;
-	height: 0px;
 }
 .menumb{
 	display: none;
-	width: 0px;
-	height: 0px;
+}
+.anima1{
+	text-align: center;
+	font-size: 150%;
+}
+.anima2{
+	text-align: center;
+	font-size: 150%;
+}
+.pos-f-t{
+	display: none;
 }
 #v-pills-home{
 	width: 0px;
 	height: 0px;
 }
-.pos-f-t{
-	display: none;
-}
 .manun{
 	display: none;
-	width: 0px;
-	height: 0px;
+}
+.image{
+	width: 98%;
+	padding-top: 15px;
+	margin-right: 20%;
 }
 .submits{
 	width: 100%;
@@ -38,19 +42,8 @@ nav{
 .submits>button{
 	padding-left: 30px;
 }
-.imags{
-	width: 100%;
-	height: 600px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-.im{
-	width: 30%;
-	height: 30%;
-	margin-left: 20%;
-}
 .nav-link{
-	padding-right: 70px;
+	padding-right: 30%;
 	padding-top: 20px; 
 }
 .carousel-indicators li{
@@ -67,7 +60,6 @@ nav{
 }
 .zoomInDown{
 	text-align: center;
-	font-size: 23px;
 }
 .fa-cogs, .fa-leaf, .fa-laptop, .fa-heart, .fa-rocket, .fa-camera{
 	width: 50px;
@@ -75,7 +67,7 @@ nav{
 	border-radius: 50px;
 	background-color: red;
 	color: white;
-	margin-left: 100px;
+	margin-left: 80px;
 }
 .fa-cogs:before{
 	left: 20px;
@@ -91,7 +83,7 @@ nav{
 	padding: 10px;
 }
 .solution{
-	width: 220px;
+	width: 22%;
 	height: 160px;
 	border: 1px solid;
 	margin-left: 20px;
@@ -99,19 +91,20 @@ nav{
 	float: left;
 }
 .creative{
-	margin-left: 50px;
+	margin-left: 25px;
 	margin-top: 25%;
 	text-align: center;
 }
 .featuress, .features{
-	width: 650px;
-	margin-left: 180px;
+	width: 80%;
+	margin-left: 85px;
 }
 .features{
 	font-size: 30px;
 }
 .imagess{
-	width: 50%;
+	margin-left: 180px;
+	width: 60%;
 }
 .solutions>.fa-heart, .fa-rocket, .fa-camera{
 	width: 50px;
@@ -122,15 +115,15 @@ nav{
 	margin-left: 1px;
 }
 .solutions{
-	width: 320px;
+	width: 60%;
 	height: 180px;
 	border: 1px solid;
-	margin-left: 10px;
+	margin-left: 200px;
 	border: none;
 	float: left;
 }
 .creatives{
-	padding-right: 100px;
+	padding-right: 220px;
 	float: right;
 }
 .creativess{
@@ -138,106 +131,73 @@ nav{
 	float: right;
 }
 .NTS{
+	margin-top: 300px;
 	background-color: #ff3300;
 	height: 280px;
 }
 .doe{
 	background-color: #F9F9F9;
-	height: 700px;
+	height: 1650px;
 }
 .solutionss{
-	width: 200px;
+	width: 80%;
 	height: 340px;
 	border: 1px solid;
-	margin-left: 30px;
+	margin-left: 100px;
 	border: none;
-	float: left;
+	
 }
 .creat{
 	padding-top: 10px;
-	text-align: center;
+	padding-left: 44%;
 	font-size: 20px;
 	font-weight: bold;
 }
 .creats{
-	font-size: 10px;
-	text-align: center;
+	font-size: 15px;
+	padding-left: 16%;
 }
 .join{
-	margin: 30px;
+	margin-left: 40%;
+	padding-bottom: 30px;
 	border-radius: 40px;
 }
 .contacts{
 	background-color: #292929;
 	color: white;
 	width: 100%;
-	height: auto;
-	margin-top: 65%;
-}
-.Multi{
-	width: 100%;
-	height: 400px;
-	padding-top: 60px;
-	padding-left: 60px;
-	padding-right: 60px;
-	margin-top: 10%;
-}
-.tlh{
-	font-size: 18px;
-}
-.dlh{
-	padding-top: 20px;
-}
-.dpvd{
-	padding-top: 22px;
-}
-.hvtt{
-	padding-bottom: 10px;
-	margin-bottom: 10px;
-}
-.fa-facebook-f, .fa-twitter, .fa-linkedin-in, .fa-tencent-weibo, .fa-google-plus-g{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	background-color: black;
-	color: white;
-	margin-left: 1px;
-	margin-top: 10px;
-}
-.Multi>i{
-	padding-left: 20px;
+	height: 30px;
+	margin-top: 100%;
 }
 .manu{
-	height: 60px;
+	height: 200%;
 	background-color: black;
 	color: white;
-}
-.images{
-	padding-top: 20px;
-	margin-right: 60px;
+	margin: 0px;
 }
 .manu>.nav-item>.nav-link{
-	padding-right: 40px;
+	padding-right: 0px;
 	padding-top: 20px; 
 }
 #main-right{
 	width: 100%;
 	height: auto;
 	float: left;
+	padding-bottom: 100px;
 	margin: auto;
 }
 #products{
 	margin-left: 17px;
 }
 #products ul li{
-	width: 230px;
+	width: 25%;
 	height: 340px;
 	float: left;
 	margin-right: 7px;
 	list-style-type: none;
 }
 .content{
-	width: 210px;
+	width: 90%;
 	height: 320px;
 	margin-left: 20%;
 }
@@ -245,10 +205,17 @@ nav{
 	margin-top: 6px;
 	text-align: center;
 	color: #f1004c;
+	font-size: 12px;
 }
 .price{
 	margin-top: 3px;
 	text-align: center;
 	font-size: 12px;
 	color: #999999;
+}
+.imgc{
+	width: 80%;
+	height: 80%;
+	margin-left: 10%;
+	border: 1px solid black;
 }
