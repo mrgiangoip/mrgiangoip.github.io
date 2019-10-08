@@ -86,6 +86,8 @@ nav{
 .visions{
 	background-color: #F9F9F9;
 	height: auto;
+	border-radius: 20px;
+	padding: 10px;
 }
 .solution{
 	width: 48%;
@@ -235,4 +237,7 @@ nav{
 	margin-left: 25%;
 	margin-bottom: 5%;
 	border: 1px solid black;
+}
+.content{
+	margin-right: 12%;
 }
