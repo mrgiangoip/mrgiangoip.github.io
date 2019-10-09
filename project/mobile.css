@@ -204,12 +204,11 @@ nav{
 	padding-left: 20px;
 }
 .manu{
-	height: 80px;
+	height: 60px;
 	background-color: black;
 	color: white;
 }
 .images{
-	padding-top: 20px;
 	margin-right: 140px;
 }
 .manu>.nav-item>.nav-link{
