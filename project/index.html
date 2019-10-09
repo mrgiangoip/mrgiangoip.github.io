@@ -207,7 +207,7 @@
 
       $('.vn_price_2').on('change',function(){
         let vn_price_2 = parseInt($(this).val());
-        let china_price_2 = parseInt(vn_price_2)*(1/3268)+20;
+        let china_price_2 = parseInt(vn_price_2)*(1/3268)-20;
         $('.china_price_2').val(new Intl.NumberFormat('ja-JP', { style: 'decimal'}).format(Math.ceil(china_price_2)));
         $(this).val('')
         $(this).val(new Intl.NumberFormat('ja-JP', { style: 'decimal'}).format(vn_price_2))
