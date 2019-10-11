@@ -104,7 +104,7 @@
           <div class="col-md-6">
             <div class="text-center mb-3 p-2" style="border: 1px solid #75CBF3;background: #75CBF3;color:#fff;border-radius: 25px">
               <h5 class="text-uppercase" style="font-weight: bold;">CHUYỂN ĐỔI VIỆT RA TỆ</h5>
-              <h1 class="text-uppercase" style="font-size: 55px;font-weight: bold;">3268</h1>
+              <h1 class="text-uppercase" style="font-size: 55px;font-weight: bold;">3262</h1>
             </div>
           </div>
           <div class="col-md-6">
@@ -207,7 +207,7 @@
 
       $('.vn_price_2').on('change',function(){
         let vn_price_2 = parseInt($(this).val());
-        let china_price_2 = parseInt(vn_price_2)*(1/3268)-20;
+        let china_price_2 = parseInt(vn_price_2)*(1/3262)-20;
         $('.china_price_2').val(new Intl.NumberFormat('ja-JP', { style: 'decimal'}).format(Math.ceil(china_price_2)));
         $(this).val('')
         $(this).val(new Intl.NumberFormat('ja-JP', { style: 'decimal'}).format(vn_price_2))
@@ -215,7 +215,7 @@
 
       $('.china_price_2').on('change',function(){
         let china_price_2 = parseInt($(this).val());
-        let vn_price_2 = (parseInt(china_price_2)+20)*1*3268;
+        let vn_price_2 = (parseInt(china_price_2)+20)*1*3262;
         $('.vn_price_2').val(new Intl.NumberFormat('ja-JP', { style: 'decimal'}).format(vn_price_2));
         $(this).val('')
         $(this).val(new Intl.NumberFormat('ja-JP', { style: 'decimal'}).format(china_price_2))
