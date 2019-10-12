@@ -12,14 +12,6 @@ color: white;
 display: block;
 margin-bottom: 6px;
 }
-.chat-wechat {
-background: green;
-border-radius: 20px;
-padding: 0 18px;
-color: white;
-display: block;
-margin-bottom: 6px;
-}
 .chat-face {
 background: #125c9e;
 border-radius: 20px;
@@ -36,7 +28,7 @@ color: white;
 display: block;
 margin-bottom: 6px;
 }
-.chat-wechat a, .chat-zalo a, .chat-face a, .hotline a {
+.chat-zalo a, .chat-face a, .hotline a {
 font-size: 15px;
 color: white;
 font-weight: 400;
