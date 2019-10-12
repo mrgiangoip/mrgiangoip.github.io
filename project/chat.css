@@ -35,8 +35,8 @@ font-weight: 400;
 text-transform: none;
 line-height: 0;
 }
-@media (max-width: 549px){
+/*@media (max-width: 549px){
 .float-contact{
 display:none
 }
-}
+}*/
