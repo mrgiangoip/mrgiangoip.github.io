@@ -33,7 +33,7 @@ font-size: 15px;
 color: white;
 font-weight: 400;
 text-transform: none;
-line-height: 0;
+line-height: 34px;
 }
 /*@media (max-width: 549px){
 .float-contact{
