@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<!-- <link rel="stylesheet" href="style.css"> -->
+	<style>
+			/*Name this external file gallery.css*/
+	body{
+	}
+	#image{
+	line-height:650px;
+	    width: 30%;
+	height: 393px;
+	    border:5px solid black;
+	    margin:0 auto;
+	background-color: #000000;
+	background-image: url('image/apple-watch-đen.jpg');
+	background-repeat: no-repeat;
+	color:#FFFFFF;
+	text-align: center;
+	background-size: 100%;
+	margin-bottom:25px;
+	font-size: 150%;
+	}
+	.preview{
+	    width:5%;
+	    margin-left:6%;
+	border-radius: 50%;
+	}
+	.pre{
+		 margin-left:38%;
+	}
+	img{
+	    width:95%;
+	}
+	</style>
+	<script>
+			/*Name this external file gallery.js*/
+
+	function upDate(previewPic) {
+	    var src = previewPic.getAttribute("src");
+	    var alt = previewPic.getAttribute("alt");
+	    document.getElementById('image').style.backgroundImage = "url(" + src + ")";
+	    document.getElementById('image').innerHTML = alt;
+
+	}
+	function unDo() {
+	    X = document.getElementById('image');
+	    X.style.backgroundImage = "url()";
+	    document.getElementById('image').innerHTML = "Hover over an image below to display here";
+
+	}
+	</script>
+</head>
+<body>
+	
+	<div id = "image">
+	</div>
+	<div class="pre">
+		<img class = "preview" alt = "" src = "image/apple-watch-đen.jpg" onmouseover = "upDate(this)">
+		
+		<img class = "preview" alt = "" src = "image/apple-watch-hồng.jpg" onmouseover = "upDate(this)">
+		
+		<img class = "preview" alt = "" src = "image/apple-watch-trắng.jpg" onmouseover = "upDate(this)">
+	</div>
+</body>
+</html>
