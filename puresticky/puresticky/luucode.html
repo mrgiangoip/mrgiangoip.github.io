@@ -1,0 +1,140 @@
+<style>
+    .tobar1, .tobar2{
+		position: fixed;
+		opacity: 0;
+		margin-left: 20%;
+		margin-top: 8%;
+	}
+	.DH, .DH1, .DH2{
+		position: fixed;
+		margin-left: 20%;
+		opacity: 0;
+	}
+</style>
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<!--Bắt Đầu Bìa Trên-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(window).scroll(function(){
+			    if ($(this).scrollTop() > 3000){
+				    $(".tobar1").css({"opacity" : "0"})
+					$(".tobar2").css({"opacity" : "0"})
+				}
+				else if ($(this).scrollTop() > 750){
+					$(".tobar1").css({"opacity" : "0"})
+					$(".tobar2").css({"opacity" : "1"})
+				}
+				else if ($(this).scrollTop() > 480){
+					$(".tobar1").css({"opacity" : "1"})
+					$(".tobar2").css({"opacity" : "0"})
+				}
+				else if ($(this).scrollTop() < 480){
+					$(".tobar1").css({"opacity" : "0"})
+					$(".tobar2").css({"opacity" : "0"})
+				}
+			})
+		});
+	</script>
+	<!--Kết Thúc Bìa Trên-->
+	<!--Bắt Đầu Luyện Tập Mini-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(window).scroll(function(){
+			    if ($(this).scrollTop() > 5000){
+				    $(".DH").css({"opacity" : "0"})
+				}
+				else if ($(this).scrollTop() > 2605){
+					$(".DH").css({"opacity" : "1"})
+				}
+				else if ($(this).scrollTop() < 2605){
+					$(".DH").css({"opacity" : "0"})
+				}
+			})
+		});
+	</script>
+	<!--Kết Thúc Luyện Tập Mini-->
+	<!--Bắt Đầu Theo Dõi Sức Khỏe-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(window).scroll(function(){
+			    if ($(this).scrollTop() > 7000){
+				    $(".DH1").css({"opacity" : "0"})
+					$(".DH2").css({"opacity" : "0"})
+				}
+				else if ($(this).scrollTop() > 3740){
+					$(".DH1").css({"opacity" : "0"})
+					$(".DH2").css({"opacity" : "1"})
+				}
+				else if ($(this).scrollTop() > 3540){
+					$(".DH1").css({"opacity" : "1"})
+					$(".DH2").css({"opacity" : "0"})
+				}
+				else if ($(this).scrollTop() < 3540){
+					$(".DH1").css({"opacity" : "0"})
+					$(".DH2").css({"opacity" : "0"})
+				}
+			})
+		});
+	</script>
+	<!--Kết Thúc Theo Dõi Sức Khỏe-->
+	<!--Bắt đầu chọn màu-->
+<style>
+			/*Name this external file gallery.css*/
+	body{
+	}
+	#image{
+	line-height: 100%;
+    width: 60%;
+    height: 90%;
+	    border:5px solid black;
+	    margin:0 auto;
+	background-color: #000000;
+	background-image: url('https://w.ladicdn.com/s1440x1440/5d371e7e73611553b1732adc/s-removebg-preview-20201220135413.png');
+	background-repeat: no-repeat;
+	color:#FFFFFF;
+	text-align: center;
+	background-size: 100%;
+	font-size: 150%;
+	}
+	.preview{
+	    width:20%;
+	    margin-left:15%;
+	border-radius: 50%;
+	}
+	.pre{
+		 margin-left:10%;
+	}
+	</style>
+	<script>
+			/*Name this external file gallery.js*/
+
+	function upDate(previewPic) {
+	    var src = previewPic.getAttribute("src");
+	    var alt = previewPic.getAttribute("alt");
+	    document.getElementById('image').style.backgroundImage = "url(" + src + ")";
+	    document.getElementById('image').innerHTML = alt;
+
+	}
+	function unDo() {
+	    X = document.getElementById('image');
+	    X.style.backgroundImage = "url()";
+	    document.getElementById('image').innerHTML = "Hover over an image below to display here";
+
+	}
+	</script>
+<!--kết thúc chọn màu-->
+<!--Bắt đầu 3D-->
+<style>
+    #SECTION16{
+        margin: 0;
+        overflow: hidden;
+        background-color: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #SECTION1, #SECTION3{
+        z-index: 3;
+    }
+</style>
+<!--Kết thúc 3D-->
