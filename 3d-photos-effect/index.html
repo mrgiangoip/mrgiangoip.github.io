@@ -27,12 +27,12 @@ async function init() {
     
     var img = new Image();
     img.crossOrigin = "Anonymous";
-    img.src = "https://photos.google.com/photo/AF1QipNCJbS7wtXrWcXpS_UToRAN8gvswNWASY8BAz9u";
+    img.src = "https://w.ladicdn.com/s1440x1440/5d371e7e73611553b1732adc/test2-20201229133031.png";
     await new Promise( r=> img.onload = r);
 
     var depth = new Image();
     depth.crossOrigin = "Anonymous";
-    depth.src = "https://photos.google.com/photo/AF1QipNEBwamVwOYo0ICOW1RK1ivNj0NcIsQkdlEMfVM";
+    depth.src = "https://w.ladicdn.com/s1440x1440/5d371e7e73611553b1732adc/test_depth2-20201229133031.png";
     await new Promise( r=> depth.onload = r);
 
     var canvas = document.createElement("canvas");
