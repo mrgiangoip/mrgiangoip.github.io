@@ -24,8 +24,8 @@ background: #ffffff;
 {
 	position: absolute;
 	top: 0;
-	left: calc(100% / 6 * var(--i));
-	width: calc(100% / 6);
+	left: calc(100% / 19 * var(--i));
+	width: calc(100% / 19);
 	height: 100%;
 }
 .card img
