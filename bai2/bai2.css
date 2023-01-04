@@ -1,0 +1,20 @@
+* {
+    font-family: 'Times New Roman', Times, serif;    
+}
+body {
+    padding: 20px 20px 20px 20px;
+}   
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.dienthongtin {
+    font-style: oblique;
+    text-decoration: underline;
+    text-align: left;    
+    }
+}
