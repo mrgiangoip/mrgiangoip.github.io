@@ -1,0 +1,53 @@
+@media only screen and (max-width: 768px) {
+    
+    .col-4 {
+        width: 100%;
+    }
+    #hidden-horizone {
+        display: none;
+    }
+    ul {
+        list-style-type: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 5px;
+        background-color: grey;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .box > a {
+        color: aqua;
+    }
+    a:link {
+        color: black;
+        text-decoration: none;
+    }
+    #banner-text {
+        font-family: 'Times New Roman', Times, serif;
+    }
+        h1 {
+        font-size: 50px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    h2 {
+        font-size: 50px;
+        font-family: 'PT Serif', serif;
+      
+    }
+    img {
+        margin: 5px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+        height: 100%;
+    }
+    .heading::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+    
+}
