@@ -3,61 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Copy Link</title>
+    <title>Share Your Link</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <style>
-        /* Reset CSS */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f8f9fa;
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f7fa;
             display: flex;
             align-items: center;
             justify-content: center;
             min-height: 100vh;
+            margin: 0;
         }
 
         .container {
             background-color: #ffffff;
             padding: 20px;
             border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
             text-align: center;
             max-width: 100%;
             width: 360px;
         }
 
         h2 {
-            font-size: 22px;
-            margin-bottom: 15px;
+            font-size: 24px;
+            font-weight: 600;
             color: #333;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
         }
 
         .link-box {
             word-wrap: break-word;
             padding: 12px;
-            border: 1px solid #ccc;
+            border: 1px solid #e0e0e0;
             border-radius: 8px;
-            background-color: #f1f1f1;
+            background-color: #f9f9f9;
             font-size: 16px;
             color: #333;
             margin-bottom: 15px;
         }
 
         .copy-button {
-            display: inline-block;
             background-color: #007bff;
-            color: #fff;
+            color: #ffffff;
             border: none;
             padding: 12px 20px;
             border-radius: 8px;
             font-size: 16px;
             cursor: pointer;
             width: 100%;
+            font-weight: 600;
         }
 
         .copy-button:hover {
@@ -81,7 +83,8 @@
 <body>
 
     <div class="container">
-        <h2>Referral Rewards Feee.io</h2>
+        <h2>Chia sẻ liên kết mã giới thiệu Feee.io</h2>
+        <p>Sao chép liên kết bên dưới để chia sẻ với bạn bè.</p>
         <div class="link-box" id="linkBox">https://feee.io/?ic=7SYV</div>
         <button class="copy-button" onclick="copyLink()">Copy Link</button>
     </div>
